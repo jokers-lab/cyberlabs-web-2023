@@ -1,8 +1,22 @@
+:root {
+  --bg-color: #f1f5f9;
+  --bg-base-color: #000000;
+}
+
 body {
   margin: 0;
   overflow-x: hidden;
 }
 
-.canvas-layout{
-    
+.canvas-layout {
+  width: 100vw;
+  height: 100vh;
+  object-fit: cover;
+  background-color: var(--bg-color);
+}
+
+.canvas-second-layout {
+  width: 100vw;
+  height: 100vh;
+  object-fit: cover;
 }
